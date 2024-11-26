@@ -1,0 +1,51 @@
+.servicio{
+   /* background-color: bisque;*/
+    width: 76%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /*gap: 10px;*/
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+   /* background-color: rgb(185, 225, 221);*/
+    width: 360px;
+    height: 150px;
+    margin: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.servicesTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 156, 79);
+}
+
+.iconskill{
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+
+.texto-1 h2{
+    font-size: 15px;
+    color: #090606;
+}
+
+.texto-1 p{
+    line-height: 1.5rem;
+    color: #797878;
+    margin: 5px;
+}
+

@@ -1,0 +1,75 @@
+.conteiner_time_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_LineTime{
+    display: flex;
+    height: 70px;
+    width: 500px;
+    
+    position: relative;
+    margin-top: 10px;
+    
+}
+.ano_LineTime{
+    border-radius: 50%;
+    background-color: beige;
+    border: solid 6px rgb(79, 156, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 70px;
+    position: absolute;
+    z-index: 2;
+}
+.title_line_time{
+    background-color: #19236a;
+    height: 100%;
+    width: 150px;
+    margin-left:  35px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 2px black;
+    z-index: 1;
+
+}
+.decripcion_limetime{
+    
+    display: flex;
+    
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    
+}
+.decripcion_limetime_1{
+    width: 420px;
+   
+   
+}
+.decripcion_limetime_2{
+    background-color: rgb(79, 156, 79);
+    border: solid 2px black;
+    border-top-right-radius: 10px;
+
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    height: 100%;
+}
+@media screen and (max-width: 750px) {
+
+}
+
+@media screen and (max-width: 500px) {
+    
+}

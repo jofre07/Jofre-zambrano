@@ -1,0 +1,78 @@
+/* Estilos generales */
+.cards {
+    width: 200px;
+    min-height: 200px;
+   
+    align-items: first baseline;
+    flex-direction: row;
+    position: relative;
+    padding: 10px;
+    margin-right: 25px;
+    border-radius: 10px;
+
+    box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.anoDescripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+   
+}
+
+.cicle{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: solid 6px rgb(79, 156, 79);
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.descripcion{
+   
+    margin-top: 35px;
+    /* background-color: rgb(79, 156, 79); */
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    border: solid 2px rgb(79, 156, 79);
+    border-bottom: 0;
+}
+
+.title{
+   
+    bottom: 0;
+    height: 30px;
+    background-color: #19236a;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 2px black;
+    color: white;
+    border-top: 0px;
+}
+.cards p{
+    margin-top: 30px;
+   
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.cards h5{
+ 
+    margin-left: 3px;
+    margin-right: 2px;
+}

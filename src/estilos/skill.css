@@ -1,0 +1,258 @@
+.contenedor-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+}
+.habilidades{
+    width: 76%;
+    /*background-color: bisque;*/
+    display: flex;
+    margin: auto;
+    
+    justify-content: center;
+}
+
+.contenedor-barras{
+    width: 100%;
+    /*background-color: aqua;*/
+    
+    margin: auto;
+    margin-top: 50px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.contenedor-barras h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+} 
+
+.container1{
+    width: 100%;
+    background-color: #ddd;
+   display: flexbox;
+    /*flex-wrap: wrap;*/
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill{
+    width: 0;
+    text-align: right;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    transition: width 2s ease-in-out; /* Efecto suave */
+}
+
+.skill p{
+   
+    /*display: inline-flex;*/
+    margin-left: 5px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+
+
+.comunication{
+    
+    background-color: #19236a; 
+    
+}
+
+.team{
+    background-color: rgb(79, 156, 79);
+    /* animation: fillteam 2s forwards; */
+}
+
+.loadership{
+    background-color: #575fa8;
+    /* animation: fillloadership 2s forwards; */
+}
+
+.management{
+    background-color: rgb(121, 163, 121);
+    /* animation: fillmanagement 2s forwards; */
+}
+
+@keyframes fillcomunication{
+    0%{width: 0;}
+    100%{width: 75%;}
+}
+
+@keyframes fillteam{
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+
+@keyframes fillloadership{
+    0%{width: 0;}
+    100%{width: 97%;}
+}
+
+@keyframes fillmanagement{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+.contenedor-graficos-circulares{
+    text-align: center;
+    
+    width: 76%;
+    
+    margin: auto;
+    font-size: 10px;
+    margin-bottom: 6%;
+    margin-top: 5%;
+    
+    transition: all 1.5s;
+}
+
+.graficos-circular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 80px;
+    
+}
+
+        
+
+.porcentajes{
+    position: relative;
+}
+
+.porcentajes span{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: solid red;*/
+    font-size: 15px;
+    color: #827f7f;
+}
+
+.texto{
+    padding-top: 170px;
+}
+
+circle{
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 15;
+    
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+}
+
+
+
+.circulo-1:nth-child(2){
+    stroke: rgb(79, 156, 79);
+    stroke-dasharray: 0 100;
+    animation: rellenar1 2s forwards;
+}
+
+
+.circulo-2:nth-child(2){
+    stroke-dasharray: 0 100;
+    animation: rellenar2 2s forwards;
+    stroke: rgb(79, 156, 79);
+}
+
+.circulo-3:nth-child(2){
+    stroke-dasharray: 0 100;
+    animation: rellenar3 2s forwards;
+    stroke: rgb(79, 156, 79);
+}
+
+.circulo-4:nth-child(2){
+    stroke-dasharray: 0 100;
+    animation: rellenar4 2s forwards;
+    stroke: rgb(79, 156, 79);
+}
+/* 
+@keyframes rellenar1{
+    to{
+        stroke-dasharray: 92 100;
+    }
+
+}
+
+@keyframes rellenar2{
+    to{
+        stroke-dasharray: 80 100;
+    }
+
+}
+
+@keyframes rellenar3{
+    to{
+        stroke-dasharray: 72 100;
+    }
+
+}
+
+@keyframes rellenar4{
+    to{
+        stroke-dasharray: 60 100;
+    }
+
+} */
+
+.graficos-circular{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* gap: 10px; */
+
+
+}
+@media screen and (max-width: 780px) {
+    .habilidades{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        align-items: center;
+    }
+    .contenedor-barras{
+        width: 90%;
+        margin-left: 0px;
+        margin-right: 0px;
+        transition: all;
+       
+    }
+    .contenedor-graficos-circulares{
+       
+        width: 90%;
+        
+    }
+}
+@media screen and (max-width: 500px) {
+    
+    .habilidades{
+        width: 95%;
+    }
+    .contenedor-graficos-circulares{
+       
+        width: 95%;
+        
+    }
+    .contenedor-barras{
+        width: 98%;
+       
+    }
+    
+}
+

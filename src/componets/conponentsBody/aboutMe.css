@@ -1,0 +1,208 @@
+.conteinerFirstAboutMe{
+    display: flex;
+    justify-content: center;
+}
+.conaineraboutme{
+    width: 73%;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+     
+}
+/*seccion abou de body*/
+.seccionAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.seccionAbout h5{
+    margin: 0px 5px 0px 5px;
+}
+.myAbout{
+    height: 30px;
+    border: 1px solid rgb(130, 206, 209);
+    display: flex;
+    align-items: center;
+    
+}
+
+.lineAbout{
+    width: 35%;
+
+
+}
+.containerBody{
+    /* margin-top: 60px; */
+}
+/*-----------------------*/
+.divperfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.divperfil h5{
+    margin-top: 10px;
+    
+}
+
+
+.datospersonales{
+    display: flex;
+    
+}
+.intenDatos{
+    margin-left: 20%;
+}
+.datos-unico{
+    margin: 10px 30px 10px 20px;
+    display: flex;
+    align-items: center;
+  
+}
+.divIcon{
+    height: 50px;
+    width: 50px;
+    background-color: #19236a;
+    /* background-color: rgb(79, 156, 79); */
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+.icondatos{
+
+    height: 30px;
+    width: 30px;
+    color: white;
+
+}
+.perfil{
+    height: 400px;
+}
+
+/* perfil socila*/
+.perfilSocial{
+    display: flex;
+    margin: 10px 0px 10px 20px;
+}
+.iconPerfilSocial{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    /* color: rgb(79, 156, 79); */
+    color: #19236a;
+}
+
+.p{
+    
+    text-align: justify;
+    margin: 0px 0px 20px 20px;
+    font-family: "Segoe UI";
+    
+}
+.p1{
+    margin: 0px 0px 20px 20px;
+    color: black;
+    font-style: oblique;
+    
+}
+.hidden{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1.2s ease-out;
+}
+.hidden1{
+    transform: translateX(15%);
+    opacity: 0;
+    transition: all 1.2s ease-out;
+}
+
+.mostrar{
+    
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 1.2s ease-out;
+}
+
+@media screen and (max-width: 780px) {
+    .conaineraboutme{
+        flex-direction: column;
+        align-items: center;
+        transition: .3s;
+    }
+    .datospersonales{
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        transition: all;
+    }
+    .perfilSocial{
+        margin-top: 30px;
+        justify-content: center;
+    }
+    
+    .perfilesocialContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: .3s;
+    }
+    .hidden{
+        transform: translateX(20%);
+        opacity: 0;
+        transition: all 1.2s ease-out;
+    }
+    .hidden1{
+        transform: translateX(-15%);
+        opacity: 0;
+        transition: all 1.2s ease-out;
+    }
+    .mostrar{
+    
+        transform: translateX(0);
+        opacity: 1;
+        transition: all 1.2s ease-out;
+    }
+    
+    
+}
+@media screen and (max-width: 500px) {
+    
+    .p{
+        width: 90%;
+        margin-right: 15px;
+    }
+    .intenDatos{
+        margin-left: 0%;
+    }
+    .conaineraboutme{
+       
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .hidden{
+        transform: translateX(0%);
+        opacity: 0;
+        transition: all 1.2s ease-out;
+    }
+    .hidden1{
+        transform: translateX(0%);
+        opacity: 0;
+        transition: all 1.2s ease-out;
+    }
+    .mostrar{
+    
+        transform: translateX(0);
+        opacity: 1;
+        transition: all 1.2s ease-out;
+    }
+}

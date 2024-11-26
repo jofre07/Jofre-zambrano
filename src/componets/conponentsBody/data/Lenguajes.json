@@ -1,0 +1,22 @@
+[
+    {
+      "lenguaje": "REACT JS",
+      "percentage": 92,
+      "color": "#19236a"
+    },
+    {
+      "lenguaje": "SQL",
+      "percentage": 80,
+      "color": "rgb(79, 156, 79)"
+    },
+    {
+      "lenguaje": "NODE JS",
+      "percentage": 57,
+      "color": "#575fa8"
+    },
+    {
+      "lenguaje": "JAVA",
+      "percentage": 60,
+      "color": "rgb(121, 163, 121)"
+    }
+]

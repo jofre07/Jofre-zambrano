@@ -1,0 +1,18 @@
+[
+    {
+      "title": "SISTEMA PREDICCION",
+      "ano": 2018,
+      "descripcion": "prediccion de reacuacion añual en en GAD de chone"
+    },
+    {
+      "title": "SISTEMA DE PRESTAMOS",
+      "ano": 2020,
+      "descripcion": "sistema de prestamos"
+    },
+    {
+      "title": "PREDICONES EN RLM Y ANN",
+      "ano": 2022,
+      "descripcion": "Prediccion con algoritmo de RLM y ANN y comparar con la ecucion de gamma incompleta"
+    }
+    
+]
