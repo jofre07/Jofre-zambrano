@@ -45,8 +45,8 @@ const AboutMe = () => {
                                 <div className="divIcon">
                                     <FaRegAddressCard className="icondatos" />
                                 </div>
-                                <div>
-                                    <h5>Name</h5>
+                                <div className="datosPer">
+                                    <h5>Name: </h5>
                                     <p>Jofre Agustin</p>
                                 </div>
                             </div>
@@ -54,8 +54,8 @@ const AboutMe = () => {
                                 <div className="divIcon">
                                     <FaRegAddressBook className="icondatos" />
                                 </div>
-                                <div>
-                                    <h5>Surnames</h5>
+                                <div className="datosPer">
+                                    <h5>Surnames: </h5>
                                     <p>Zambrano Zambrabo</p>
                                 </div>
                             </div>
@@ -63,8 +63,8 @@ const AboutMe = () => {
                                 <div className="divIcon">
                                     <MdOutlineEmail className="icondatos" />
                                 </div>
-                                <div>
-                                    <h5>Email</h5>
+                                <div className="datosPer">
+                                    <h5>Email: </h5>
                                     <p>joofre.z.z.07@gmail.com</p>
                                 </div>
                             </div>
@@ -74,8 +74,8 @@ const AboutMe = () => {
                                 <div className="divIcon">
                                     <FaRegAddressCard className="icondatos" />
                                 </div>
-                                <div>
-                                    <h5>Birthdate</h5>
+                                <div className="datosPer">
+                                    <h5>Birthdate: </h5>
                                     <p>07/07/1994</p>
                                 </div>
                             </div>
@@ -83,8 +83,8 @@ const AboutMe = () => {
                                 <div className="divIcon">
                                     <GiBirdHouse className="icondatos" />
                                 </div>
-                                <div>
-                                    <h5>Country</h5>
+                                <div className="datosPer"> 
+                                    <h5>Country: </h5>
                                     <p>Ecuador</p>
                                 </div>
                             </div>
@@ -92,8 +92,8 @@ const AboutMe = () => {
                                 <div className="divIcon">
                                     <GiBirdHouse className="icondatos" />
                                 </div>
-                                <div>
-                                    <h5>Province/Cantón</h5>
+                                <div className="datosPer">
+                                    <h5>Province/Cantón: </h5>
                                     <p>Bolivar Manabi</p>
                                 </div>
                             </div>
