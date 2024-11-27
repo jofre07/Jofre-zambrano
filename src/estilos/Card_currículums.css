@@ -76,3 +76,15 @@
     margin-left: 3px;
     margin-right: 2px;
 }
+@media screen and (max-width: 780px) {
+    
+    
+    
+}
+@media screen and (max-width: 500px) {
+    .cards{
+        margin-top: 10px;
+    }
+   
+
+}

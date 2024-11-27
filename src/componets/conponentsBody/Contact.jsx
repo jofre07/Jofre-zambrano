@@ -15,7 +15,7 @@ function Contact() {
                              <FaRegAddressCard className="icon-direccion" />
                         </div>
                         <div>
-                            <p><b>Address:</b> 635 Manabi, South Corner Street, Almendria, Egipt </p>
+                            <p><b>Address:</b> Manabi/bolivar/Calceta --entrada cabellos </p>
                         </div>
                     </div>
 					<div className="datos-direccion">
@@ -23,7 +23,7 @@ function Contact() {
                              <FaRegAddressCard className="icon-direccion" />
                         </div>
                         <div>
-                            <p><b>Phone:</b> +593 098 574 5123 </p>
+                            <p><b>Phone:</b> +593 991 977 302 </p>
                         </div>
                     </div>
 					<div className="datos-direccion">
@@ -31,7 +31,7 @@ function Contact() {
                              <FaRegAddressCard className="icon-direccion" />
                         </div>
                         <div>
-                            <p><b>Whatsap:</b> +593 098 574 5123 </p>
+                            <p><b>Whatsap:</b> +593 991 977 302 </p>
                         </div>
                     </div>
 					<div className="datos-direccion">
@@ -47,7 +47,7 @@ function Contact() {
                              <FaRegAddressCard className="icon-direccion" />
                         </div>
                         <div>
-                            <p className="resaltado"><b>Email:</b> consultoradsc@gmail.com </p>
+                            <p className="resaltado"><b>Email:</b> Jofre.z.z.07@gmail.com </p>
                         </div>
                     </div>
 					<div className="datos-direccion">
@@ -55,7 +55,7 @@ function Contact() {
                              <FaRegAddressCard className="icon-direccion" />
                         </div>
                         <div>
-                            <p className="resaltado"><b>Website:</b> www.consultoradsc.com </p>
+                            <p className="resaltado"><b>Website:</b> https://jofre07.github.io/Jofre-zambrano/ </p>
                         </div>
                     </div>
                     <div className="perfilS">

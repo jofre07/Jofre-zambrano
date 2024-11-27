@@ -1,4 +1,4 @@
-.resumens{
+.resumens {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,17 +7,20 @@
     margin-bottom: 50px;
 
 }
-.cedena{
+
+.cedena {
     height: 5px;
     width: 30px;
     background-color: blue;
 }
-.lineTime{
+
+.lineTime {
     display: flex;
     justify-content: center;
     transition: .5s;
 }
-.lineyear{
+
+.lineyear {
     height: 50px;
     width: 50px;
     border: 2px solid black;
@@ -25,132 +28,173 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-.lineyear1{
-    background-color: rgb(79, 156, 79);
-}
-.lineyear2{
-    background-color: rgb(49, 80, 216);;
+
 }
 
-.linetimecenter{
+.lineyear1 {
+    background-color: rgb(79, 156, 79);
+}
+
+.lineyear2 {
+    background-color: rgb(49, 80, 216);
+    ;
+}
+
+.linetimecenter {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.hr{
-    height: 40px; /*20px*/
+
+.hr {
+    height: 40px;
+    /*20px*/
     width: 4px;
     background-color: black;
 }
-.linetimeleft{
+
+.linetimeleft {
     margin-top: 10px;
     margin-right: 10px;
     /* background-color: aqua; */
 }
-.linetimering{
+
+.linetimering {
     margin-top: 105px;
     margin-left: 10px;
-    
+
 }
-.texoTime{
-    
+
+.texoTime {
+
     border-radius: 10px;
     box-shadow: 5px 5px 15px gray;
     border-color: blue;
 }
-.lineHeader{
+
+.lineHeader {
     background-color: rgb(79, 156, 79);
     height: 35px;
 }
-.lineHeader1{
+
+.lineHeader1 {
     background-color: rgb(54, 68, 133);
     height: 35px;
 }
-.LineH4{
+
+.LineH4 {
     color: aliceblue;
 }
-.linetimeleftRespnose{
+
+.linetimeleftRespnose {
     display: none;
     transition: .5s;
 }
-.descripcion{
+
+.descripcion {
     height: 35px;
 }
-.wight{
+
+.wight {
     width: 35%;
 }
-.hide{
+
+.hide {
     transform: translateX(-10%);
     opacity: 0;
     transition: all 1.2s ease-out;
 }
-.show{
+
+.show {
     opacity: 1;
     transform: translateX(0);
     transition: all 1.2s ease-out;
 }
 
 @media screen and (max-width: 750px) {
-    .linetimeleftRespnose{
+    .resumens {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+        
+
+    }
+
+
+    .linetimeleftRespnose {
         display: flex;
         transition: .5s;
-        
-        
+
     }
-    .linetimecenter1{
+
+    .linetimecenter1 {
         display: none;
-        
+
     }
-    .lineTime{
-        margin-top: 0 ;
+
+    .lineTime {
+        margin-top: 0;
         flex-direction: column;
         transition: .5s;
         width: 80%;
-        
+
     }
-    .containeLineTime{
-       
+
+    .containeLineTime {
+
         display: flex;
         justify-content: center;
         align-items: center;
         transition: .5s;
-        
+
     }
-    .linetimering{
+
+    .linetimering {
         margin-top: 20px;
         margin-left: 5px;
-       
+
     }
-    .linetimeleft{
+
+    .linetimeleft {
         margin-top: 0px;
         margin-left: 5px;
-       
+
         /* background-color: aqua; */
     }
-    .wight{
+
+    .wight {
         width: 95%;
     }
-    
+
+
+
 }
 
 @media screen and (max-width: 500px) {
-    .lineTime{
+    .resumens {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+        
+    }
+    
+    .lineTime {
         width: 80%;
     }
 
-    .hide{
+    .hide {
         transform: translateX(1%);
         opacity: 0;
         transition: all 1.2s ease-out;
     }
-    .show{
+
+    .show {
         opacity: 1;
         transform: translateX(0);
         transition: all 1.2s ease-out;
     }
 }
-
