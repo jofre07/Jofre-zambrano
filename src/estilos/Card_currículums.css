@@ -1,7 +1,7 @@
 /* Estilos generales */
 .cards {
-    width: 200px;
-    min-height: 200px;
+    width: 230px;
+    min-height: 250px;
    
     align-items: first baseline;
     flex-direction: row;
@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 125px;
+    height: 175px;
     border: solid 2px rgb(79, 156, 79);
     border-bottom: 0;
 }

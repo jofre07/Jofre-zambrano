@@ -211,6 +211,8 @@
     }
     .datos-unico p{
         margin-left: 5px;
+        
+        
     }
     .datos-unico h5{
         font-weight: bold;
@@ -222,7 +224,10 @@
         margin-right: 15px;
         
         font-family: "Times New Roman", serif;
+        
     }
+    
+
     .intenDatos{
         margin-left: 2%;
        

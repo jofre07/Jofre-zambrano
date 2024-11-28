@@ -75,8 +75,8 @@ const AboutMe = () => {
                                     <FaRegAddressCard className="icondatos" />
                                 </div>
                                 <div className="datosPer">
-                                    <h5>Birthdate: </h5>
-                                    <p>07/07/1994</p>
+                                    <h5>Position: </h5>
+                                    <p>Full-stack Software Developer</p>
                                 </div>
                             </div>
                             <div className="datos-unico">
