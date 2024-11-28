@@ -53,9 +53,9 @@ function Skills() {
 					</div>
 					<div className="container1">
 
-						<div className="skill loadership" data-percentage="97">
-							<p>LoaderShip</p>
-							97%
+						<div className="skill loadership" data-percentage="80">
+							<p>Project Management</p>
+							80%
 						</div>
 					</div>
 					<div className="container1">
@@ -71,30 +71,30 @@ function Skills() {
 					<h2>TRANSFERABLE SKILLS</h2>
 					<div className="container1">
 
-						<div className="skill comunication" data-percentage="87">
-							<p>Comunication</p>
-							75%
+						<div className="skill comunication" data-percentage="90">
+							<p>Adaptability</p>
+							90%
 						</div>
 					</div>
 					<div className="container1">
 
-						<div className="skill team" data-percentage="80">
-							<p>Team work</p>
-							80%
+						<div className="skill team" data-percentage="85">
+							<p>Continuous Learning</p>
+							85%
 						</div>
 					</div>
 					<div className="container1">
 
-						<div className="skill loadership" data-percentage="97">
+						<div className="skill loadership" data-percentage="70">
 							<p>Leadership</p>
-							97%
+							70%
 						</div>
 					</div>
 					<div className="container1">
 
-						<div className="skill management " data-percentage="70">
-							<p>Time Management</p>
-							70%
+						<div className="skill management " data-percentage="75">
+							<p>Creatividad</p>
+							75%
 						</div>
 					</div>
 				</div>

@@ -5,7 +5,9 @@ import { FaRegAddressCard, FaInstagram, FaLinkedin, FaFacebookSquare, FaFacebook
 function Contact() {
 	return (
 		<div className="contenedor-contacto">
-			<iframe className="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2549.7081840521178!2d-80.16371984140768!3d-0.8472006954032644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1696626582166!5m2!1ses-419!2sec" > </iframe>
+			{/* <iframe className="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2549.7081840521178!2d-80.16371984140768!3d-0.8472006954032644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1696626582166!5m2!1ses-419!2sec" > </iframe> */}
+            <iframe className="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31915.110929353825!2d-80.15960409999995!3d-0.8406657999999646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1732762850339!5m2!1ses!2sec"></iframe>
+            
             
 			<div className="correo">
 				<div className="direccion">

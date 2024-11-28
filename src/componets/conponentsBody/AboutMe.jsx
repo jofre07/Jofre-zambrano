@@ -35,7 +35,7 @@ const AboutMe = () => {
         <div className="conteinerFirstAboutMe">
             <div className="conaineraboutme">
                 <div className="divperfil hidden">
-                    <img src="img/jofre_.jpg" alt="" className="perfil" />
+                    <img src="img/Jofre1.jpg" alt="" className="perfil" />
                     <h5>Cargo: Desarrollador</h5>
                 </div>
                 <div>
@@ -112,10 +112,10 @@ const AboutMe = () => {
 
 
 
-                        <p className="p">Soy un programador que durante sus estudios se especializó en la creación de códigos. En mi práctica profesional en la fintech Moderna participé en la actualización de su aplicación. Mi objetivo es aplicar mis conocimientos y aptitudes profesionales en conseguir la satisfacción de los usuarios que entren a las webs que programe.</p>
-                        <p className="p">Aunque soy un recién graduado, tengo mucho que aportar a su empresa y seguro que en ella aprenderé mucho más....</p>
+                        <p className="p">Soy una persona dedicada, organizada y responsable, graduado en Ingeniero en Ciencias de la Computación con una sólida formación en desarrollo de software y tecnologías modernas, busco aportar soluciones innovadoras, eficientes y orientadas a resultados en cada proyecto..</p>
+                        <p className="p">Siempre estoy presto a asumir nuevas tareas con la mejor disposición y con capacidad de adaptación al contexto laboral al cual se me sea designado</p>
 
-                        <p className="p1">Yours sincerely</p>
+                        <p className="p1">@jazz</p>
                     </div>
                 </div>
             </div>
