@@ -76,7 +76,7 @@ const AboutMe = () => {
                                 </div>
                                 <div className="datosPer">
                                     <h5>Position: </h5>
-                                    <p>Full-stack Software Developer</p>
+                                    <p>Full-stack Developer</p>
                                 </div>
                             </div>
                             <div className="datos-unico">
